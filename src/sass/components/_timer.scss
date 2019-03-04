@@ -1,0 +1,72 @@
+.timer {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 5rem;
+  border: 1px solid $color-grey;
+  border-radius: 0.5rem;
+  min-height: 40rem;
+
+  &__logo {
+    text-align: center;
+    background-color: $color-black;
+    padding: 1rem;
+  }
+
+  &__seconds {
+    cursor: pointer;
+    text-align: center;
+    font-size: 10rem;
+    padding: 3rem 0;
+
+  }
+
+  &__list {
+    text-align: center;
+    font-size: 3rem;
+    padding: 3rem 0;
+
+    &__item {
+      cursor: pointer;
+      background-color: $color-primary;
+      padding: 1rem 0;
+      transition: all 0.2s;
+      color: $color-grey;
+
+      &--selected {
+        background-color: $color-primary-light;
+        color: $color-white;
+        font-weight: bold;
+      }
+
+      &:hover {
+        background-color: $color-primary-light;
+      }
+    }
+  }
+
+  &__addsplit {
+    text-align: center;
+  }
+
+  &__button {
+    cursor: pointer;
+    text-decoration: none;
+    background-color: $color-primary;
+    border-color: $color-primary;
+    border-radius: 0.5rem;
+    font-size: 3rem;
+    padding: 2rem;
+    color: $color-white;
+    text-align: center;
+    transition: all 0.2s;
+    margin: 2rem;
+
+    &:hover {
+      background-color: $color-primary-light;
+    }
+
+    &:focus {
+      outline: 0;
+    }
+  }
+}

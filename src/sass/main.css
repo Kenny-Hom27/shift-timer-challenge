@@ -1,0 +1,62 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: Montserrat; }
+
+.timer {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 5rem;
+  border: 1px solid #333;
+  border-radius: 0.5rem;
+  min-height: 40rem; }
+  .timer__logo {
+    text-align: center;
+    background-color: #000;
+    padding: 1rem; }
+  .timer__seconds {
+    cursor: pointer;
+    text-align: center;
+    font-size: 10rem;
+    padding: 3rem 0; }
+  .timer__list {
+    text-align: center;
+    font-size: 3rem;
+    padding: 3rem 0; }
+    .timer__list__item {
+      cursor: pointer;
+      background-color: #7acd45;
+      padding: 1rem 0;
+      transition: all 0.2s;
+      color: #333; }
+      .timer__list__item--selected {
+        background-color: #adfd78;
+        color: #fff;
+        font-weight: bold; }
+      .timer__list__item:hover {
+        background-color: #adfd78; }
+  .timer__addsplit {
+    text-align: center; }
+  .timer__button {
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #7acd45;
+    border-color: #7acd45;
+    border-radius: 0.5rem;
+    font-size: 3rem;
+    padding: 2rem;
+    color: #fff;
+    text-align: center;
+    transition: all 0.2s;
+    margin: 2rem; }
+    .timer__button:hover {
+      background-color: #adfd78; }
+    .timer__button:focus {
+      outline: 0; }
